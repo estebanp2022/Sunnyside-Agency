@@ -54,8 +54,61 @@ nav {
   padding: 32px 24px 88px;
 }
 
-.nav-links {
+.nav-container {
+  position: relative;
+}
+
+.nav-list {
+  position: absolute;
+  background: #fff;
+  top: 60px;
+  left: -290px;
+  width: 329px;
+  height: 329px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  padding: 20px 0;
+}
+
+.nav-list a {
+  font-size: 20px;
+  color: #808397;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.nav-list p {
+  margin: 0;
+}
+
+.active {
   display: none;
+}
+
+.contact-link {
+  color: #24303e;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.11px;
+  background-color: #fbd600;
+  font-size: 15px;
+  padding: 15px 30px;
+  width: 140px;
+  height: 56px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  color: #fff;
+  border: none;
+  background-color: #3ebfff;
+  cursor: pointer;
 }
 
 /* cards */
@@ -351,7 +404,7 @@ footer {
     align-items: center;
   }
 
-  .nav-links {
+  .nav-list {
     font-family: "Barlow", sans-serif;
     width: 450px;
     display: flex;
@@ -359,7 +412,7 @@ footer {
     align-items: center;
   }
 
-  .nav-links a {
+  .nav-list a {
     text-decoration: none;
     font-size: 18px;
     color: #fff;
@@ -394,7 +447,7 @@ footer {
     height: 33px;
   }
 
-  .nav-links {
+  .nav-list {
     display: flex;
   }
 
