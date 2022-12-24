@@ -239,7 +239,6 @@ button {
 /* testimonials */
 .testimonials {
   width: 327px;
-  /* height: 1108px; */
   text-align: center;
   margin: 0 auto;
   display: flex;
@@ -579,6 +578,4 @@ footer {
   .gellery-4 {
     background-image: url(./images/desktop/image-gallery-sugar-cubes.jpg);
   }
-
-  /* footer */
 }
